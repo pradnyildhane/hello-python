@@ -36,7 +36,7 @@ df1.to_csv(r'/Users/pradnyilkumardhane/Downloads/dftocsv2.csv', mode='a', index=
 import certifi
 ca = certifi.where()
 
-client = MongoClient("mongodb+srv://admin:admin@cluster0.xcupbdw.mongodb.net/?retryWrites=true&w=majority",tlsCAFile=ca)
+client = MongoClient("mongodb+srv://XXX/?retryWrites=true&w=majority",tlsCAFile=ca)
 db = client.myFirstDatabase
 
 collection = db.myFirstDatabase
